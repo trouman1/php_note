@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/game.js"></script>
+    <style>
+        td{
+            width: 100px;
+        }
+    </style>
+</head>
+<body style="background:url(../bg_image/4.webp)  no-repeat center center;background-size:cover;background-attachment:fixed;">
+    <table border="3" style="text-align:center;margin:auto;margin-top: 70px;width: 500px;height: 200px;background-color: aliceblue;">
+        <tr>
+            <td><b>点数</b></td>
+            <td><input type="number" name="num" id="num" placeholder="1-49"></td>
+        </tr>
+        <tr>
+            <td><b>大or小</b></td>
+            <td>
+                <input type="radio" name="bs" id="bs" value="1">大
+                <input type="radio" name="bs" id="bs" value="0">小
+            </td>
+        </tr>
+        <tr>
+            <td><b>单or双</b></td>
+            <td>
+                <input type="radio" name="od" id="od" value="1">单
+                <input type="radio" name="od" id="od" value="0">双
+            </td>
+        </tr>
+        <tr>
+            <td><b>生肖</b></td>
+            <td>
+                <select name="zodiac" id="zodiac">
+                    <option value="0">请选择</option>
+                    <option value="1">虎</option>
+                    <option value="2">牛</option>
+                    <option value="3">鼠</option>
+                    <option value="4">猪</option>
+                    <option value="5">狗</option>
+                    <option value="6">鸡</option>
+                    <option value="7">猴</option>
+                    <option value="8">羊</option>
+                    <option value="9">马</option>
+                    <option value="10">蛇</option>
+                    <option value="11">龙</option>
+                    <option value="12">兔</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div style="text-align:center">
+        <button onclick="doBuy()">买进</button>                     
+      </div>
+      <!-- <table id="table" style="text-align:center;margin:auto;margin-top: 10px;background-color: aliceblue;">
+        <tr>
+            <td>出奖号码</td>
+            <td>号码</td>
+            <td>大小</td>
+            <td>单双</td>
+            <td>生肖</td>
+        </tr>
+    </table> -->
+</body>
+</html>

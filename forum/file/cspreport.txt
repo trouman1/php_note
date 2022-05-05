@@ -1,0 +1,18 @@
+report-time: 2022-03-30 10:44:54
+blocked-uri: http://192.168.150.200
+document-uri: http://localhost/forum/html/forum_lookup_html.php?forumid=34
+original-policy: script-src http://localhost; report-uri http://localhost/forum/php/cspreport.php
+referrer: http://localhost/forum/html/forum_html.php
+violated-directive: script-src http://localhost
+
+----------------------------
+
+report-time: 2022-03-30 10:45:30
+blocked-uri: http://192.168.150.131:3000
+document-uri: http://localhost/forum/html/forum_lookup_html.php?forumid=32
+original-policy: script-src http://localhost; report-uri http://localhost/forum/php/cspreport.php
+referrer: http://localhost/forum/html/forum_html.php
+violated-directive: script-src http://localhost
+
+----------------------------
+

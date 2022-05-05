@@ -1,0 +1,17 @@
+table{
+    margin: auto;
+    width: 900px;
+    background-color: whitesmoke;
+}
+td{
+    margin: auto;
+    text-align:center;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+}
+body{
+    background:url(../bg_image/3.webp)  no-repeat center center;
+    background-size:cover;
+    text-align:left;
+    background-attachment:fixed;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/login_register.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body style="background:url(../bg_image/2.webp);">
+    <div class="outer" >
+    <!-- <form action="../php/login_register.php" method="post" class="outer"> -->
+        <div class="zise1">Register</div>
+        <input type="file" id="photo" name="photo1">
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="password" name="password" id="password" placeholder="password">
+        <input type="text" name="phone" id="phone" placeholder="phone"><br>
+        <select name="role" id="role">
+            <option value="member">member</option>
+            <option value="visitor">visitor</option>
+            <option value="admin">admin</option>
+        </select><br>
+        <button onclick="doRegister()">Register</button>
+        <!-- <input type="submit"> -->
+    <!-- </form> -->
+    </div>
+</body>
+</html>

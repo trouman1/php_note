@@ -1,0 +1,37 @@
+body{
+    background:url(../bg_image/1.webp)  no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+    text-align:center;
+}
+button{
+    width: 200px;
+    font-family: "Bradley Hand ITC";
+}
+input{
+    width: 200px;
+    font-family: "Bradley Hand ITC";
+}
+.outer{
+    background:url(../bg_image/2.webp)  no-repeat center center;
+    background-size:cover;
+    text-align:center;
+    /* border: 1px solid  rgb(169, 154, 255); */
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:35px;
+    margin-top: 200px;
+    border-radius: 16px;
+}
+.bgimg{
+    background:url(../bg_image/2.webp)  no-repeat center center;
+}
+.zise1{
+    font-size: 30px;
+    font-family: "Bradley Hand ITC";
+}
+#vcode{
+    width: 126px;
+    font-family: "Bradley Hand ITC";
+}
